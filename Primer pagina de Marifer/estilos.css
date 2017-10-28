@@ -1,0 +1,17 @@
+
+header{
+    color: pink;
+    background-color:blue;
+}
+header h2{
+    color:red;
+}
+header div{
+    background-color:purple;
+
+}
+#tamaño{
+    color:orange;
+    font-size: 5em;
+    direction: rtl;
+}

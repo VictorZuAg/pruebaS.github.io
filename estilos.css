@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: blueviolet;
+}
+header{
+    background-color: red;
+}
+main{
+    background-color: blue;
+}
+header>.titulo{
+    width: 100%;
+    height: 70px;
+
+}
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    z-index: 1;
+}
+main{
+    background-color: blue;
+}
+div{
+    display: flex;
+}
+div > section{
+    background-color: greenyellow;
+    height: 700px;
+    width: 50%;
+}
+article{
+    background-color: aquamarine;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: magenta;
+}
+.imagen{
+    background-image: url("https://www.debate.com.mx/export/sites/debate/img/2016/07/06/ciudad-queretaro.jpg_815390619.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9;
+    color: white;
+}
